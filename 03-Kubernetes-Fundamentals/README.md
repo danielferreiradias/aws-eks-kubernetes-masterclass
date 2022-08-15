@@ -15,6 +15,7 @@
 | kubectl delete ns 'dev1' | Delete all objects in 'dev1' 'Namespace' |
 | kubectl resources-capacity | Show resources capacity |
 | kubectl cordon 'Node' | Mark a 'Node' as invalid |
+| kubectl drain 'Node' | Drain to safely evict all of your pods from a node |
 | kubectl logs -f 'Podname' -n 'Nameservice' | Get logs of a pod |
 | kubectl edit deployment 'Deploy'  --namespace 'Namespace' | Edit one deploy in specific 'Namespace' |
 | kubectl apply -f nginx-deploy.yaml | Create a deployment in the default namespace. |
