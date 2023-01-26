@@ -118,9 +118,14 @@ eksctl version
 ```
 
 ### Step-03-02: eksctl on windows or linux
-- For windows and linux OS, you can refer below documentation link. 
+- For windows and linux OS, you can refer below documentation link.
 - **Reference:** https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html#installing-eksctl
 
+```
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+sudo mv /tmp/eksctl /usr/local/bin
+eksctl version
+```
 
 ## References:
 - https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html
