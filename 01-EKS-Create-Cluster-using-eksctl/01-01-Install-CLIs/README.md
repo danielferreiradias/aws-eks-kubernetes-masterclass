@@ -27,8 +27,8 @@ which aws
 - Reference: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html
 
 ### Step-01-02: Windows 10 - Install and configure AWS CLI
-- The AWS CLI version 2 is supported on Windows XP or later.
-- The AWS CLI version 2 supports only 64-bit versions of Windows.
+- The AWS CLI version 2 is supported on Windows XP or later
+- The AWS CLI version 2 supports only 64-bit versions of Windows
 - Download Binary: https://awscli.amazonaws.com/AWSCLIV2.msi
 - Install the downloaded binary (standard windows install)
 ```
@@ -107,10 +107,10 @@ kubectl version --client
 # Install Homebrew on MacOs
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-# Install the Weaveworks Homebrew tap.
+# Install the Weaveworks Homebrew tap
 brew tap weaveworks/tap
 
-# Install the Weaveworks Homebrew tap.
+# Install the Weaveworks Homebrew tap
 brew install weaveworks/tap/eksctl
 
 # Verify eksctl version
@@ -122,6 +122,7 @@ eksctl version
 - **Reference:** https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html#installing-eksctl
 
 ```
+# Install eksctl on linux
 curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
 sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
