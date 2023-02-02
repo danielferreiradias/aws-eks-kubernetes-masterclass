@@ -172,7 +172,7 @@ Obseravation:
 
 # Template
 eksctl create iamserviceaccount \
-  --cluster=my_cluster \
+  --cluster=eksdemo1 \
   --namespace=kube-system \
   --name=aws-load-balancer-controller \ #Note:  K8S Service Account Name that need to be bound to newly created IAM Role
   --attach-policy-arn=arn:aws:iam::076356746256:policy/AWSLoadBalancerControllerIAMPolicy \
